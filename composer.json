@@ -1,19 +1,24 @@
 {
-    "name": "hcodebr/ecommerce",
+    "name": "georgemaker/ecommerce-pagseguro",
+    "description": "ecommerce pagseguro",
+    "type": "project",
     "authors": [
-        {
-            "name": "Hcode Treinamentos",
-            "email": "suporte@hcode.com.br"
-        }
+    	{
+    		"name": "George",
+    		"email": "suportegeorgemaker@gmail.com"
+    	}
     ],
+    "minimum-stability": "dev",
     "require": {
+    	"monolog/monolog":"1.0.*",
     	"phpmailer/phpmailer":"5.2.22",
     	"slim/slim":"2.0",
-    	"rain/raintpl":"3.0.0"
+    	"rain/raintpl":"3.0.0",    	
+    	"guzzlehttp/guzzle":"*"
     },
-    "autoload": {
-        "psr-4": {
-            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
-        }
+    "autoload":{
+    	"psr-4":{
+    		"Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+    	}
     }
 }
